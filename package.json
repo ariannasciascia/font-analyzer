@@ -1,0 +1,14 @@
+{
+  "name": "font-analyzer",
+  "version": "1.0.0",
+  "description": "Analizza font e colori principali da un sito web",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "puppeteer": "^21.0.0",
+    "cors": "^2.8.5"
+  }
+}
