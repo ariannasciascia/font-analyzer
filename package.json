@@ -6,12 +6,9 @@
   "scripts": {
     "start": "node server.js"
   },
-  "config": {
-    "puppeteer_skip_download": true
-  },
   "dependencies": {
     "express": "^4.18.0",
-    "puppeteer": "^21.0.0",
+    "puppeteer-core": "^21.0.0",
     "cors": "^2.8.5"
   }
 }
