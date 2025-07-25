@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node server.js"
   },
-  "puppeteer": {
-    "skip_download": true
+  "config": {
+    "puppeteer_skip_download": true
   },
   "dependencies": {
     "express": "^4.18.0",
